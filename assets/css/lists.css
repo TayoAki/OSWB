@@ -1,0 +1,60 @@
+/* ** Property List ** */
+
+.nav-pills .nav-item .btn {
+  color: var(--dark);
+}
+
+.nav-pills .nav-item .btn:hover, .nav-pills .nav-item .btn.active {
+  color: #FFFFFF;
+}
+
+.property-item {
+  box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+}
+
+.property-item img {
+  transition: .5s;
+}
+
+.property-item:hover img {
+  transform: scale(1.1);
+}
+
+.property-item .border-top {
+  border-top: 1px dashed rgba(0, 185, 142, .3) !important;
+}
+
+.property-item .border-end {
+  border-right: 1px dashed rgba(0, 185, 142, .3) !important;
+}
+
+/* ** Team ** */
+
+.team-item {
+  box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+  transition: .5s;
+}
+
+.team-item .btn {
+  color: var(--primary);
+  background: #FFFFFF;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .15);
+}
+
+.team-item .btn:hover {
+  color: #FFFFFF;
+  background: var(--primary);
+}
+
+.team-item:hover {
+  border-color: var(--secondary) !important;
+}
+
+.team-item:hover .bg-primary {
+  background: var(--secondary) !important;
+}
+
+.team-item:hover .bg-primary i {
+  color: var(--secondary) !important;
+}
+
